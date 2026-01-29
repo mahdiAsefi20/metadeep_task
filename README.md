@@ -114,7 +114,7 @@ The system maintains an explicit shared state that acts as a “fake Redis”:
 * `scenes`: approved or failed storyboard scenes
 * `retry_budget`: per-scene retry counters
 * `verification_log`: human-readable orchestration trace
-* `current_scene`, `feedback`: transient graph state
+* `current_scene`, `current_plan_id`,`feedback`: transient graph state
 
 This design mirrors production agent systems where **artifacts, not conversations, are the source of truth**.
 
