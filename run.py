@@ -1,6 +1,6 @@
 import json
 from orchestration.langgraph_orchestrator import build_graph
-
+import pprint
 
 def main():
 
@@ -15,7 +15,7 @@ def main():
 
     result = graph.invoke(initial_state)
 
-    print(result["scenes"])
+    pprint.pprint(result)
 
 
 
