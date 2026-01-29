@@ -33,7 +33,7 @@ class PlannerAgent:
             state.scene_plans = insert_scene_and_shift_ids(state.scene_plans, index, transition)
             state.retry_budget = insert_retry_budget_and_shift(state.retry_budget, transition_id)
             state.verification_log.append(
-                f"Inserted transition scene {transition_id} before scene {scene_id}"
+                f"Inserted transition scene {transition_id} before scene {scene_id + 1}"
             )
             
 
