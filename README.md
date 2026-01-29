@@ -177,22 +177,6 @@ Naive repair loops can run forever.
 
 This is critical for cost and safety in real agentic systems.
 
----
-
-## Creativity & Original Contributions
-
-While the PoC is not claiming novel research, it includes **non-trivial design choices**:
-
-* **Typed verification feedback** instead of free-text critique
-* **Scene-level repair** instead of global regeneration
-* **Verifier as a structural gate**, not a conversational peer
-* **LangGraph-native retry control**, not ad-hoc loops
-* **Storyboard as stateful memory**, not chat history
-
-These choices make the orchestration logic explicit, debuggable, and extensible.
-
----
-
 ## How to Run
 
 ### Requirements
@@ -242,3 +226,10 @@ multi_agent_storyboard_poc/
 * Architecture & design: **~2 hours**
 * LangGraph integration & debugging: **~5 hours**
 * Documentation & cleanup: **~1.5 hours**
+
+---
+## Use of AI-Assisted Tools
+
+During this task, AI-assisted tools such as **ChatGPT** and **NotebookLM** were used as productivity and research accelerators. These tools supported rapid exploration of design alternatives, clarification of orchestration patterns, and synthesis of information from technical sources.
+
+All architectural decisions, trade-off evaluations, and final implementations were made deliberately and reviewed critically. AI tools were treated as **collaborative aids**, not as substitutes for system design, reasoning, or validation.
