@@ -25,7 +25,7 @@ This challenge is **independent of the video model** and appears in systems such
 
 ### High-Level Architecture
 
-The PoC implements a **Planner → Executor → Verifier** pattern with **explicit feedback loops**, inspired by recent agentic research (ReAct, Reflexion, LangGraph).
+The PoC implements a **Planner → Executor → Verifier** pattern with **explicit feedback loops**, inspired by recent agentic research.
 
 #### Agents
 
